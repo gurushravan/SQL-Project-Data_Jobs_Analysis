@@ -1,0 +1,1 @@
+SELECT job_posted_date at time zone 'UTC' at time zone 'IST', extract (MONTH from job_posted_date) as date_month from job_postings_fact LIMIT 100;
